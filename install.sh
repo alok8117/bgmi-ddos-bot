@@ -8,7 +8,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/villain/villain.py",
+    "postStartCommand": "python3 /workspaces/bgmi-ddos-bot/villain.py",
     "customizations": {
         "vscode": {
             "settings": {
